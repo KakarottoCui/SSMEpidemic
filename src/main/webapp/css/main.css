@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #f6f8fa;
+}
+
+.blue_block {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.blue_block > h2, .blue_block > p {
+    color: white;
+}
+
+.center {
+    width: 800px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+.block {
+    margin: 0;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+}
+
+.title {
+    line-height: 100px;
+    margin: 0;
+    color: white;
+}
+
+.box {
+    text-align: left;
+    width: 150px;
+    height: 200px;
+    /*float: left;*/
+    background: white;
+    -webkit-box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.6);
+    box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.6);
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box:hover {
+    transform: translateY(-8px);
+    transition: transform 0.4s;
+}
+
+.box p {
+    text-indent: 2em; /*开头空格*/
+}
+
+.box h4 {
+    color: #912CEE;
+}
+
+.text {
+    text-align: left;
+    text-indent: 2em; /*开头空格*/
+}
+
+.ptitle {
+    color: darkorange;
+    text-align: center
+}

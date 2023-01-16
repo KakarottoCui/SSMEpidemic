@@ -1,0 +1,48 @@
+.top{
+    z-index: 999;
+    font-size: 18px;
+    /* 设置宽度高度背景颜色 */
+    height: auto; /*高度改为自动高度*/
+    width:150px;
+    margin-left: 0;
+    position: fixed; /*固定在顶部*/
+    top: 200px;/*离顶部的距离为0*/
+    right: 100px;
+}
+
+.top ul{
+    /* 清除ul标签的默认样式 */
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-top: 0;
+    padding: 0;
+
+}
+
+.top li {
+    margin-top:2%;  /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+}
+
+.top li a{
+    width: 100px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:black;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+    box-shadow: 0 0 5px rgba(45, 45, 45, 0.6);
+
+}
+
+.top li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background-color: #b8b8b8;
+}
